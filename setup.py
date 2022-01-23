@@ -44,6 +44,7 @@ extras_require_all = [
     'elasticsearch==2.3.0',
     'kombu==4.4.0',
     'amqp==2.4.0',
+    'vine<5.0.0a1,>=1.1.3',
     'SQLAlchemy==1.3.10',
     'pika==1.1.0'
 ]

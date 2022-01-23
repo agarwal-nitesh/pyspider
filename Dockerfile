@@ -34,6 +34,7 @@ RUN pip install -e .[all]
 # Create a symbolic link to node_modules
 RUN ln -s /opt/node/node_modules ./node_modules
 
+#COPY config_example.json /opt/pyspider/config.json
 #VOLUME ["/opt/pyspider"]
 ENTRYPOINT ["pyspider"]
 
